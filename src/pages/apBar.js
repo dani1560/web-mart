@@ -85,6 +85,9 @@ export default function ApBar() {
                         <Button>
                             <Link to="/Collection" className={useStyles.box}>Collections</Link>
                         </Button>
+                        <Button>
+                            <Link to="/ApiCalling" className={useStyles.box}>ApiCalling</Link>
+                        </Button>
                         
                     </Grid>
                 </Grid>

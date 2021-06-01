@@ -6,6 +6,7 @@ import NotFound from './pages/notfound'
 import Home from './pages/Home'
 import Header from './pages/apBar'
 import Checkout from './pages/checkout/checkoutPage'
+import ApiCalling from "./pages/ApiCalling";
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path="/Collection">
           <Collection />
+        </Route>
+        <Route path="/ApiCalling">
+          <ApiCalling/>
         </Route>
         <Route path="/Cart">
           <Cart/>
